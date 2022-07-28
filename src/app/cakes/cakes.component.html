@@ -1,0 +1,13 @@
+<!-- select -->
+<div class="col-4 m-3">
+  <select class="form-select" (change)="onIngredientChange($event)">
+    <option selected>---</option>
+    <option *ngFor="let i of ingredients" [value]="i">{{ i }}</option>
+  </select>
+</div>
+
+<div class="row mt-2">
+  <div class="col-3 m-3" *ngFor="let cake of cakes">
+    <app-item [cake]="cake"></app-item>
+  </div>
+</div>

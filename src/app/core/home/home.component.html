@@ -1,0 +1,12 @@
+<div class="row mt-5">
+  <ngb-carousel *ngIf="slideshow">
+    <ng-template ngbSlide *ngFor="let slide of slideshow">
+      <div class="picsum-img-wrapper">
+        <img [src]="slide.image" />
+      </div>
+      <div class="carousel-caption">
+        <h3>{{ slide.text }}</h3>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>
