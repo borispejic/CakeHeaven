@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# About the project CakeHeaven
+<img src="https://dev.pixelmedia.rs/boris/cakeheaven-1.jpg">
+<img src="https://dev.pixelmedia.rs/boris/cakeheaven-2.jpg">
+
+Using API I have shown all cakes on the front-end, and additional options to edit user profiles and send API post to the backend server.
